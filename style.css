@@ -1,0 +1,1213 @@
+/* External CSS */
+/* h1{
+    color: aqua;
+    background-color: black;
+    font-size: 50px;
+} */
+
+/* h1 { */
+/* Named Color */
+/* color: red; */
+
+/* Hexadecimal */
+/* color: #ff0000;
+    color: #00ff00;
+    color: #0000ff; */
+
+/* RGB - Red Green Blue */
+/* color: rgb(255,0,0);
+    color: rgb(0,255,0);
+    color: rgb(8, 65, 3); */
+
+/* RGBA - Red Green Blue Alpha */
+/* color: rgba(34,12,78,0.5); */
+
+/* HSL - Hue Saturation Lightness */
+/* color: hsl(136, 81%, 48%); */
+
+/* HSLA - Hue Saturation Lightness Alpha */
+/* color: hsla(227, 45%, 45%, 0.737); */
+/* } */
+
+/* Background Color */
+/* h1{
+    background-color: rgb(100, 5, 109);
+} */
+
+/* Universal Selector */
+/* *{
+    background-color: red;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+} */
+
+/* ID Selector */
+/* #id{
+    color: aqua;
+    font-size: 50px;
+} */
+
+/* Class Selector */
+/* .class{
+    color: blue;
+    font-size: 20px;
+} */
+
+/* Element Selector */
+/* h1{
+    color: palevioletred;
+} */
+
+/* Grouping Selector */
+/* h1,span,p,h5{
+    color: aqua;
+} */
+
+/* Descendent Selector */
+/* .desc p{
+    color: aqua;
+} */
+
+/* Child Selector */
+/* .child > div{
+    color: red;
+} */
+
+/* Adjacent Siblings Selector */
+/* .adj h2+p{
+    color: red;
+} */
+
+/* General Siblings Selector */
+/* .general h2~p{
+    color: red;
+} */
+
+/* Attribute Selector */
+/* [type="password"]{
+    border: 2px dashed red;
+} */
+
+/* Bachground Image */
+/* *{
+    background-image: url(./pexels-sidesimagery-3106799.jpg);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+/* Border */
+/* button{
+    border: 2px solid red;
+    border: 2px dotted green;
+    border: 1px dashed red;
+    border-radius: 10%;
+    border: none;
+} */
+
+/* Reset - Margin & Padding */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* Margin */
+/* button{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+button{
+    margin: 10px 30px 40px 50px;
+}
+button{
+    margin: 50px 20px;
+} */
+
+/* Padding */
+/* button{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 90px;
+}
+button{
+    padding: 20px 0 10px 45px;
+}
+button{
+    padding: 50px 100px;
+} */
+
+/* Height & Width */
+/* button{
+    height: 100px;
+    width: 100%;
+} */
+
+/* Box Model */
+/* p{
+    height: 100px;
+    width: 200px;
+    padding: 50px;
+    border: 2px solid purple;
+    margin: 20px;
+} */
+
+/* Box Sizing */
+/* p {
+    box-sizing: border-box;
+    width: 200px;
+    height: 100px;
+    padding: 70px;
+    border: 2px solid red;
+} */
+/* p {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 60px;
+    border: 2px solid red;
+} */
+
+/* Outline */
+/* button{
+    border: 2px solid red;
+    outline: 3px solid green
+} */
+
+/* Text */
+/* p{ */
+/* Text Color */
+/* color: royalblue; */
+
+/* Text Alignment */
+/* text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify; */
+
+/* Text Decoration */
+/* text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: none; */
+
+/* Text Transform */
+/* text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: none; */
+
+/* Text Spacing */
+/* letter-spacing: 5px;
+    word-spacing: 5px; */
+
+/* Text Shoadow */
+/* text-shadow: 2px 2px 1px gray; */
+/* } */
+
+/* Fonts */
+/* p{ */
+/* Font Family */
+/* font-family: 'Courier New', Courier, monospace; */
+
+/* Font Style */
+/* font-style: normal;
+    font-style: italic;
+    font-style: oblique; */
+
+/* Font Size */
+/* font-size: 30px;
+    font-size: xx-small;
+    font-size: medium; */
+
+/* Font Weight */
+/* font-weight: bolder;
+    font-weight: 800; */
+/* } */
+
+/* Link - Pseudo Class Selector */
+/* Unvisited Link */
+/* a:link{
+    color: red;
+    text-decoration: none;
+} */
+/* Visited Link */
+/* a:visited{
+    color: aqua;
+} */
+/* Hover */
+/* a:hover{
+    color: blueviolet;
+} */
+/* Active */
+/* a:active{
+    color: rgb(199, 254, 15);
+} */
+
+/* List Style */
+/* UnOrder List */
+/* ul{
+    list-style:square;
+    list-style:disc;
+    list-style:circle;
+    list-style: decimal;
+} */
+/* Order List */
+/* ol{
+    list-style: decimal;
+    list-style: lower-alpha;
+    list-style: upper-alpha;
+    list-style: lower-roman;
+    list-style: upper-roman;
+    list-style: lower-greek;
+} */
+
+/* Tables */
+/* table{
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 30px;
+} */
+/* table{
+    border-collapse: collapse;
+    border-collapse: separate;
+} */
+
+/* Display */
+/* Display: Block */
+/* .box1{
+    display: block;
+    background-color: lightblue;
+}
+.box2{
+    display: block;
+    background-color: lightcyan;
+} */
+
+/* Display: Inline */
+/* span{
+    display: inline;
+}
+.css{
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+} */
+
+/* Dsiplay: Inline-Block */
+/* button{
+    display: inline-block;
+    padding: 20px;
+    height: 30px;
+    width: 100%;
+} */
+
+/* Display: None */
+/* p{
+    display: none;
+    opacity: 0.3;
+} */
+
+/* Display: Flex */
+/* .flex{
+    display: flex;
+} */
+
+/* Display: Grid */
+/* .grid{
+    display: grid;
+    grid-template-columns: 100px 100px;
+} */
+
+/* Display - Tables */
+/* .tables{
+    display: table;
+}
+.tables p{
+    display: table-cell;
+    padding: 10px;
+} */
+
+/* Display: Inline-Flex */
+/* .in-flex{
+    display: inline-flex;
+} */
+
+/* Display: Inline-Grid */
+/* .in-grid{
+    display: inline-grid;
+    grid-template-columns: 100px 100px;
+} */
+
+/* FlexBox */
+/* FlexRow */
+/* .flex{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: start;
+    justify-content: end;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+} */
+
+/* Flex Column */
+/* .flex {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    align-items: start;
+    align-items: end;
+    align-items: flex-start;
+    align-items: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+} */
+
+/* Overflow */
+/* p{
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: visible;
+    overflow: auto;
+} */
+
+/* Text to center */
+/* p{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+} */
+
+/* Flex Wrap */
+/* .wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+.box1{
+    height: 250px;
+    width: 250px;
+    background-color: lightgreen;
+}
+.box2{
+    height: 250px;
+    width: 250px;
+    background-color: lightblue;
+}
+.box3{
+    height: 250px;
+    width: 250px;
+    background-color: lightpink;
+}
+.box4{
+    height: 250px;
+    width: 250px;
+    background-color: lightseagreen;
+} */
+
+/* Flex Grow */
+/* .grow{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-color: black;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    margin-top: 25px;
+    flex-grow: 5;
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: lightblue;
+    margin-top: 25px;
+    flex-grow: 1;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: lightpink;
+    margin-top: 25px;
+    flex-grow: 10;
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: lightslategray;
+    margin-top: 25px;
+    flex-grow: 20;
+} */
+
+/* Flex Shrink */
+/* .fshrink{
+    display: flex;
+    height: 100px;
+    width: 900px;
+    border: 2px solid red;
+}
+.shrink{
+    flex-basis: 500px;
+}
+.box1{
+    background-color: rebeccapurple;
+    flex-shrink: 13;
+}
+.box2{
+    background-color: green;
+    flex-shrink: 1;
+}
+.box3{
+    background-color: palevioletred;
+    flex-shrink: 7;
+} */
+
+/* Flex Order */
+/* .forder{
+    display: flex;
+    height: 100px;
+    width: 700px;
+    border: 2px solid red;
+}
+.order{
+    flex-basis: 500px;
+}
+.box1{
+    background-color: aqua;
+    order: 2;
+}
+.box2{
+    background-color: green;
+    order: 4;
+}
+.box3{
+    background-color: pink;
+    order: 1;
+}
+.box4{
+    background-color: blueviolet;
+    order: 3;
+} */
+
+/* Float */
+/* img{
+    float: left;
+    float: right;
+    float: none;
+    padding: 50px;
+}
+p{
+    padding: 50px;
+} */
+
+/* Flex Flow */
+/* .fflow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    flex-flow: row wrap-reverse;
+    flex-flow: column wrap;
+    flex-flow: column wrap-reverse;
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rebeccapurple;
+}  */
+
+
+/* Align Content */
+/* .acontent{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    align-content: center;
+    align-content: flex-start;
+    align-content: flex-end;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+} */
+
+/* Align Self */
+/* .aself{
+    display: flex;
+    height: 300px;
+    border: 2px solid black;
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rebeccapurple;
+}
+.special{
+    align-self: auto;
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+    align-self: baseline;
+    align-self: stretch;
+} */
+
+/* Grid */
+/* *{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    width: 100%;
+    height: 100vh;  
+    border: 2px solid black; */
+
+/* Columns */
+/* grid-template-columns: 100px 500px 100px 800px;
+    grid-template-columns: repeat(5,200px);
+    grid-template-columns: repeat(4, 100px) 200px 400px;
+    grid-template-columns: 1fr 5fr 1fr 2fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr) 3fr;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    row-gap: 5px;
+    column-gap: 5px; */
+
+/* Rows */
+/* grid-template-rows: 100px 100px 100px 500px;
+    grid-template-rows: repeat(5, 300px);
+    grid-template-rows: repeat(3, 200px) 400px 200px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr) 6fr;
+    grid-template-rows: repeat(3, minmax(100px, 1fr));
+    row-gap: 5px; */
+
+/* Rows & Columns */
+/* grid-template: repeat(3, 1fr)/repeat(3,1fr);
+    gap: 10px;
+    row-gap: 5px;
+    column-gap: 5px; */
+/* }
+.box1{
+    background-color: green;
+}
+.box2{
+    background-color: red;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: purple;
+}
+.box5{
+    background-color: yellow;
+}
+.box6{
+    background-color: aqua;
+}
+.box7{
+    background-color: orange;
+}
+.box8{
+    background-color: chartreuse;
+}
+.box9{
+    background-color: grey;
+} */
+
+/* Grid - Align,Justify,Place */
+/* .grid{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black; */
+
+/* Grid Template - Row & Column Using Fraction*/
+/* grid-template: repeat(3, 1fr)/repeat(3,1fr); */
+
+/* Justify Items */
+/* justify-items: center;
+    justify-items: start;
+    justify-items: end;
+    justify-items: stretch; */
+
+/* Align Items */
+/* align-items: center;
+    align-items: start;
+    align-items: end;
+    align-items: stretch; */
+
+/* Place Items */
+/* place-items: center center;
+    place-items: center start;
+    place-items: center end;
+    place-items: center;
+    place-items: start;
+    place-items: end; */
+
+/* Grid Template - Row & Column Using Pixels*/
+/* grid-template: repeat(3, 100px)/repeat(3,100px); */
+
+/* Justify Content */
+/* justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+/* Align Cintent */
+/* align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly; */
+
+/* Place Content */
+/* place-content: space-around space-between;
+    place-content: start space-between;
+    place-content: end space-between;
+    place-content: start space-around;
+    place-content: end space-around;
+    place-content: start space-evenly;
+    place-content: end space-evenly;
+    place-content: center space-around;
+    place-content: center space-between;
+    place-content: center space-evenly; */
+
+/* Auto Flow */
+/* grid-auto-flow: column;
+    grid-auto-flow: row;
+} */
+/* .box1{
+    background-color: green;
+}
+.box2{
+    background-color: blueviolet;
+}
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color: blue;
+}
+.box5{
+    background-color: yellow;
+}
+.box6{
+    background-color: orange;
+}
+.box7{
+    background-color: pink;
+}
+.box8{
+    background-color: aqua;
+}
+.box9{
+    background-color: crimson;
+} */
+
+/* Pseudo Classes */
+/* Hover */
+/* button{
+    background-color: green;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: rgb(40, 180, 40);
+} */
+
+/* Active */
+/* button:active{
+    color: red;
+} */
+
+/* Focus */
+/* input:hover{
+    border: 2px solid aqua;
+    outline: none;
+} */
+
+/* First, Last, nth Child */
+/* p:first-child{
+    color: aqua;
+}
+p:last-child{
+    color: gold;
+}
+p:nth-child(3){
+    color: blue;
+} */
+
+/* Checked */
+/* input:checked{
+    height: 100px;
+    width: 100px;
+} */
+
+/* Not Selected */
+/* p:not(.skip){
+    color: red;
+} */
+
+/* Disabled */
+/* input:disabled{
+    background-color: aqua;
+    cursor: not-allowed;
+} */
+
+/* Enabled */
+/* input:enabled{
+    border: 2px solid slateblue;
+    outline: none;
+} */
+
+/* First, Last, nth -of-type */
+/* p:first-of-type{
+    color: red;
+}
+p:last-of-type{
+    color: green;
+}
+p:nth-last-of-type(3){
+    color: aqua;
+} */
+
+/* Positions */
+/* *{
+    margin: 0;
+} */
+/* Static */
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: static;
+} */
+
+/* Releative */
+/* .box{
+    height: 100px;
+    width: 100px;
+    background: greenyellow;
+    position: relative;
+    top: 200px;
+    left: 200px;
+    margin-top: 200px;
+    margin-left: 200px;
+} */
+
+/* Absolute */
+/* .parent{
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+} */
+
+/* Fixed */
+/* .chat{
+    background: orange;
+    padding: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+} */
+
+/* Sticky */
+/* .sticky{
+    background-color: aqua;
+    padding: 20px;
+    position: sticky;
+    top: 30px;
+} */
+
+/* Z-Index */
+/* .box1{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(76, 0, 255);
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    z-index: 1000;
+} */
+
+/* Pesudo Elements */
+/* Before */
+/* h1::before{
+    content: "HTML: ";
+} */
+
+/* After */
+/* h1::after{
+    content: " - It is used to structure the webpage"
+} */
+
+/* First Letter */
+/* p::first-letter{
+    color: blueviolet;
+    font-size: 60px;
+} */
+
+/* First Line */
+/* p::first-line{
+    color: crimson;
+    font-style: italic;
+} */
+
+/* Selection */
+/* ::selection{
+    background-color: black;
+    color: green;
+} */
+
+/* Placeholder */
+/* input::placeholder{
+    color: blue;
+    font-style: italic;
+} */
+
+/* Marker */
+/* li::marker{
+    color: aqua;
+    font-size: 50px;
+} */
+
+/* BackDrop */
+/* ::backdrop{
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+
+/* Transitions */
+/* button {
+    background-color: royalblue;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer; */
+
+    /* Transition Syntax */
+    /* transition: property duration timimg-function */
+
+    /* Linear - Same Speed */
+    /* transition: background 1s linear;  */
+
+    /* ease - slow-fast-slow */
+    /* transition: background 1s ease; */
+
+    /* ease-in - slow-fast */
+    /* transition: background 1s ease-in; */
+
+    /* ease-out - fast-slow */
+    /* transition: background 1s ease-out; */
+
+    /* ease-in-out - slow-fast-slow - smoothness */
+    /* transition: background 1s ease-in-out; */
+/* }
+
+button:hover {
+    background-color: rgb(47, 241, 60);
+} */
+
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transition: height 1s ease-in-out, width 1s ease-in-out, background 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+div:hover{
+    height: 600px;
+    width: 600px;
+    background-color: rgb(0, 255, 17);
+} */
+
+/* Transform */
+/* button{
+    background-color: royalblue;
+    color: white;
+    padding: 20px 100px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    transition: transform 0.2s ease-out;
+} */
+/* button:hover{
+    background-color: rgb(0, 255, 17); */
+
+/* Zoom Out */
+/* transform: scale(0.5); */
+
+/* Zoom In */
+/* transform: scale(1.9); */
+
+/* Move Right */
+/* transform: translateX(200px); */
+
+/* Move Down */
+/* transform: translateY(5px); */
+
+/* Move Left */
+/* transform: translateX(-5px); */
+
+/* Move Top */
+/* transform: translateY(-5px); */
+/* } */
+
+/* Animations */
+/* Identifier - Move */
+/* .box {
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple; */
+
+/* animation: move 1s infinite; */
+/* animation: name duration timing-function delay iteration-count direction fill-mode; */
+/* animation: move 1s ease-in-out 5s infinite alternate forwards; */
+
+/* Directions */
+/* animation: move 1s ease-in-out infinite alternate;
+    animation: move 1s ease-in-out infinite alternate-reverse;
+    animation: move 1s ease-in-out infinite reverse;
+    animation: move 1s ease-in-out infinite normal; */
+
+/* Fill-mode */
+/* animation: move 1s ease-in-out forwards;
+    animation: move 1s ease-in-out backwards;
+    animation: move 1s ease-in-out both;
+    animation: move 1s ease-in-out none; */
+
+/* } */
+/* @keyframes identifier {
+    
+} */
+
+/* @keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(200px);
+    }
+} */
+
+/* Identifier - Zoom */
+/* .box{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    
+    animation: zoom 1s ease-in-out infinite alternate;
+}
+@keyframes zoom {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(2.5);
+    }
+} */
+
+/* Identifier - Spin */
+/* .box {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+
+    animation: spin 1s ease-in-out infinite alternate;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+} */
+
+/* Use All */
+/* .box {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+
+    animation: anima 1s ease-in-out infinite alternate;
+}
+@keyframes anima {
+    from{
+        transform: translateX(0) scale(0.5) rotate(0deg);
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        opacity: 0;
+    }
+    to{
+        transform: translateX(200px) scale(2.5) rotate(180deg);
+        background-color: green;
+        height: 300px;
+        width: 300px;
+        opacity: 1.1;
+    }
+} */
+
+/* Responsive Design and Media Query */
+/* Fluid Grid */
+/* .container{
+    width: 500px;
+    background-color: aqua;
+}
+.container{
+    width: 80%;
+    background-color: red;
+} */
+
+/* Flexible Image */
+/* img{
+    max-width: 100%;
+    height: auto;
+} */
+
+/* Media Query */
+/* @media (conditions){
+    css rules
+} */
+
+/* Width */
+/* Max-Width */
+/* @media (max-width:500px){
+    body{
+        background-color: red;
+    }
+} */
+/* Min-Width */
+/* @media (min-width:300px){
+    body{
+        background-color: green;
+    }
+} */
+
+/* Orientation */
+/* Landscape */
+/* @media (orientation: landscape){
+    body{
+        background-color: purple;
+    }
+} */
+/* Portrait */
+/* @media (orientation: portrait){
+    body{
+        background-color: rgb(0, 128, 4);
+    }
+} */
+
+/* Screen */
+/* @media screen {
+    .hi{
+        font-size: 30px;
+    }
+} */
+/* Print */
+/* @media print {
+    .hi{
+        font-size: 34px;
+    }
+} */
+
+/* Combining Condition */
+/* @media (min-width:600px) and (max-width:1200px) {
+    body{
+        background-color: aqua;
+    }
+} */
+
+/* Resposive Typography */
+/* .box{
+    font-size: 2rem;
+}
+@media (max-width:500px) {
+    .box{
+        font-size: 1.5rem;
+    }
+} */
+
+/* Box Shadow */
+/* .greet{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(189, 184, 184);
+    border-radius: 15%;
+
+}
+.greet:hover{
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.8);
+} */
