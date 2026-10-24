@@ -148,26 +148,27 @@ button{
 
 /* Box Model */
 /* p{
+    border: 2px solid purple;
     height: 100px;
     width: 200px;
     padding: 50px;
-    border: 2px solid purple;
     margin: 20px;
 } */
 
 /* Box Sizing */
 /* p {
-    box-sizing: border-box;
+    box-sizing: content-box;
+    border: 2px solid red;
     width: 200px;
     height: 100px;
-    padding: 70px;
-    border: 2px solid red;
+    padding: 50px;
 } */
 /* p {
     box-sizing: border-box;
-    width: 200px;
-    padding: 60px;
     border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
 } */
 
 /* Outline */
@@ -253,6 +254,7 @@ button{
     list-style:disc;
     list-style:circle;
     list-style: decimal;
+    list-style: none;
 } */
 /* Order List */
 /* ol{
@@ -262,6 +264,7 @@ button{
     list-style: lower-roman;
     list-style: upper-roman;
     list-style: lower-greek;
+    list-style: none;
 } */
 
 /* Tables */
@@ -942,23 +945,23 @@ p:nth-last-of-type(3){
     border-radius: 20px;
     cursor: pointer; */
 
-    /* Transition Syntax */
-    /* transition: property duration timimg-function */
+/* Transition Syntax */
+/* transition: property duration timimg-function */
 
-    /* Linear - Same Speed */
-    /* transition: background 1s linear;  */
+/* Linear - Same Speed */
+/* transition: background 1s linear;  */
 
-    /* ease - slow-fast-slow */
-    /* transition: background 1s ease; */
+/* ease - slow-fast-slow */
+/* transition: background 1s ease; */
 
-    /* ease-in - slow-fast */
-    /* transition: background 1s ease-in; */
+/* ease-in - slow-fast */
+/* transition: background 1s ease-in; */
 
-    /* ease-out - fast-slow */
-    /* transition: background 1s ease-out; */
+/* ease-out - fast-slow */
+/* transition: background 1s ease-out; */
 
-    /* ease-in-out - slow-fast-slow - smoothness */
-    /* transition: background 1s ease-in-out; */
+/* ease-in-out - slow-fast-slow - smoothness */
+/* transition: background 1s ease-in-out; */
 /* }
 
 button:hover {
