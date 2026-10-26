@@ -304,8 +304,9 @@ button{
 } */
 
 /* Dsiplay: Inline-Block */
-/* button{
+/* span{
     display: inline-block;
+    background-color: red;
     padding: 20px;
     height: 30px;
     width: 100%;
