@@ -864,7 +864,13 @@ p:nth-last-of-type(3){
     margin: 0;
 } */
 /* Static */
-/* .box{
+/* .box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: static;
+}
+.box2{
     height: 100px;
     width: 100px;
     background-color: red;
@@ -980,7 +986,7 @@ p:nth-last-of-type(3){
 } */
 
 /* BackDrop */
-/* ::backdrop{
+/* dialog::backdrop{
     background-color: rgba(0, 0, 0, 0.5);
 } */
 
