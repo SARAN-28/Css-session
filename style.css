@@ -1084,18 +1084,18 @@ div:hover{
 /* animation: move 1s ease-in-out 5s infinite alternate forwards; */
 
 /* Directions */
-/* animation: move 1s ease-in-out infinite alternate;
-    animation: move 1s ease-in-out infinite alternate-reverse;
-    animation: move 1s ease-in-out infinite reverse;
-    animation: move 1s ease-in-out infinite normal; */
+/* animation: move 1s ease-in-out infinite alternate; */
+/* animation: move 1s ease-in-out infinite alternate-reverse; */
+/* animation: move 1s ease-in-out infinite reverse; */
+/* animation: move 1s ease-in-out infinite normal; */
 
 /* Fill-mode */
-/* animation: move 1s ease-in-out forwards;
-    animation: move 1s ease-in-out backwards;
-    animation: move 1s ease-in-out both;
-    animation: move 1s ease-in-out none; */
-
+/* animation: move 1s ease-in-out forwards; */
+/* animation: move 1s ease-in-out backwards; */
+/* animation: move 1s ease-in-out both; */
+/* animation: move 1s ease-in-out none; */
 /* } */
+
 /* @keyframes identifier {
     
 } */
@@ -1127,6 +1127,7 @@ div:hover{
     }
     to{
         transform: scale(2.5);
+        background-color: greenyellow;
     }
 } */
 
@@ -1147,6 +1148,7 @@ div:hover{
     }
     to{
         transform: rotate(180deg);
+        border-radius: 50%;
     }
 } */
 
@@ -1159,9 +1161,9 @@ div:hover{
     width: 100px;
     background-color: aqua;
 
-    animation: anima 1s ease-in-out infinite alternate;
+    animation: animate 1s ease-in-out infinite alternate;
 }
-@keyframes anima {
+@keyframes animate {
     from{
         transform: translateX(0) scale(0.5) rotate(0deg);
         background-color: red;
@@ -1228,6 +1230,42 @@ div:hover{
     }
 } */
 
+/* Combining Condition */
+/* @media (min-width:600px) and (max-width:1200px) {
+    body{
+        background-color: aqua;
+    }
+} */
+
+/* Media Query Example */
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.box {
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+  background-color: blue;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .box {
+    background-color: rgb(44, 255, 36);
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .box {
+    background-color: rgb(255, 71, 187);
+  }
+} */
+
 /* Screen */
 /* @media screen {
     .hi{
@@ -1241,21 +1279,18 @@ div:hover{
     }
 } */
 
-/* Combining Condition */
-/* @media (min-width:600px) and (max-width:1200px) {
-    body{
-        background-color: aqua;
-    }
-} */
-
 /* Resposive Typography */
+/* 0.5rem = 8px
+1rem = 16px
+2rem = 32px */
+
 /* .box{
-    font-size: 2rem;
+  font-size: 20px;
+  padding: 16px;
 }
-@media (max-width:500px) {
-    .box{
-        font-size: 1.5rem;
-    }
+.box {
+  font-size: 1.25rem;
+  padding: 1rem;
 } */
 
 /* Box Shadow */
